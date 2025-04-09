@@ -1,0 +1,18 @@
+/* styles.css */
+.bg-facebook {
+  background-color: #3b5998;
+  color: white; /* Manually adding text-white */
+}
+
+.bg-facebook:hover {
+  filter: brightness(90%);
+}
+
+.bg-twitter {
+  background-color: #1da1f2;
+  color: white; /* Manually adding text-white */
+}
+
+.bg-twitter:hover {
+  filter: brightness(90%);
+}

@@ -12,6 +12,10 @@ pnpm-lock.yaml
 node_modules/
 
 
+# .gitignore
+.env
+
+
 # Logs
 logs
 *.log
