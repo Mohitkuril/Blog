@@ -18,8 +18,9 @@ export class AuthService {
         password,
         name
       );
+
       if (userAccount) {
-        return this.login(email, password);
+        return this.login({ email, password });
       } else {
         return userAccount;
       }
@@ -30,7 +31,9 @@ export class AuthService {
 
   async login({ email, password }) {
     try {
-      return await this.account.createEmailSession(email, password);
+      console.log(email, password, "userAccount");
+
+      return await this.account.createEmailPasswordSession(email, password);
     } catch (error) {
       console.log(error, "login");
     }

@@ -22,7 +22,7 @@ function Signup() {
         navigate("/");
       }
     } catch (error) {
-      setError(error.message);
+      setError(error.message, "errorr");
     }
   };
 

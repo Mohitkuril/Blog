@@ -22,7 +22,7 @@ export class Service {
         {
           title,
           content,
-          featuredImage,
+          image: featuredImage,
           status,
           userId,
         }
